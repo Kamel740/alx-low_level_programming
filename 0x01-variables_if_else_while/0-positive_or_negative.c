@@ -3,7 +3,9 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
+/* betty style doc for function main goes there
+ * main - now if the numper + or -
+ */
 int main(void)
 {
 	int n;
@@ -12,7 +14,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 	if (n > 0)
-		printf("%d is positive\n", n);
+		printf("%i is positive\n", n);
 	else if (n < 0)
 		printf("%d is negative\n", n);
 	else

@@ -2,7 +2,7 @@
 /**
 *main - print alphapet from a to z and A to Z
 *
-*Return 0
+*Return: Always 0 (Success)
 */
 int main(void)
 {int i;

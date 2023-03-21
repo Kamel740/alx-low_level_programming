@@ -2,7 +2,7 @@
 
 /**
  * print_sign -  function that prints the sign of a number
- *@: the numper that we want to cheack the numper
+ *@n: the numper that we want to cheack the numper
  * Return: 0 or 1 or -1
  * written by kamel
  */

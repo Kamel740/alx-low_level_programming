@@ -3,7 +3,7 @@
 /**
  * print_last_digit - to print the last digit
  * Return: the last digit
- * @i: is the numper that we want the last digit from it
+ * @n: is the numper that we want the last digit from it
  * written by kamel
  */
 

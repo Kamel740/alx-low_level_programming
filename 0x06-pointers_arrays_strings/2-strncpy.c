@@ -21,7 +21,7 @@ while (j < n && src[j] != '\0')
 }
 while (j < n)
 {
-	dest[j] ='\0';
+	dest[j] = '\0';
 	j++;
 }
 return (dest);

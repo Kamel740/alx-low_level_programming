@@ -17,7 +17,7 @@ int is_prime_number(int n)
 }
 
 /**
- * actual_prime - calculates if a number is prime recursively
+ * kamel - calculates if a number is prime recursively
  * @n: number to evaluate
  * @i: iterator
  *
@@ -30,5 +30,5 @@ int kamel(int n, int i)
 		return (1);
 	if (n % i == 0 && i > 0)
 		return (0);
-	return (kamel(n, i - n));
+	return (kamel(n, i - 1));
 }

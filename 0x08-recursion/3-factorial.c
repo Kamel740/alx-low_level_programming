@@ -1,4 +1,4 @@
-#inculde "main.h"
+#include "main.h"
 
 /**
  * factorial - returns the factorial of a number
@@ -9,10 +9,11 @@
 
 int factorial(int n)
 {
+	int s = 0;
 	if (n < 0)
 		return(-1);
 	if (n == 0)
 		return(1);
-	factorial(n) = n * factorial(n - 1);
-	return(factorial(n);
+	s  = n * factorial(n - 1);
+	return(s);
 }

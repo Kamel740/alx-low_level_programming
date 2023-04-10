@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
  * main - prints the naem of the program
  * @argc : number of arguments
  * @argv : array of arguments

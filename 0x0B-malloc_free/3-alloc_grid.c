@@ -29,7 +29,7 @@ int **alloc_grid(int width, int height)
 		{
 			for (; x >= 0; x--)
 				free(kamel[x]);
-			free(kamel)
+			free(kamel);
 			return (NULL);
 		}
 	}

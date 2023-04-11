@@ -28,7 +28,7 @@ int **alloc_grid(int width, int height)
 		if (kamel[x] == NULL)
 		{
 			for (; x >= 0; x--)
-				free(kamel[x])
+				free(kamel[x]);
 			free(kamel)
 			return (NULL);
 		}
@@ -37,7 +37,7 @@ int **alloc_grid(int width, int height)
 	{
 		for (y = 0; y < width; y++)
 
-			mee[x][y] = 0;
+			kamel[x][y] = 0;
 	}
-	return (mee);
+	return (kamel);
 }

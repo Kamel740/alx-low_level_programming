@@ -24,7 +24,7 @@ int **alloc_grid(int width, int height)
 	}
 	for (x = 0; x < height; x++)
 	{
-		kamel[x] = malloc(sizeof(int)*width);
+		kamel[x] = malloc(sizeof(int) * width);
 		if (kamel[x] == NULL)
 		{
 			for (; x >= 0; x--)

@@ -39,12 +39,12 @@ char *str_concat(char *s1, char *s2)
 	while (s1[i] != '\0')
 	{
 		kamel[i] = s1[i];
-		i++
+		i++;
 	}
 	while (s2[k] != '\0')
 	{
 		kamel[i] = s2[k];
-		k++, i++
+		k++, i++;
 	}
 	kamel[i] = '\0';
 	return (kamel);

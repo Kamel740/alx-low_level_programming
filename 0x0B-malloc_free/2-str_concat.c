@@ -26,7 +26,7 @@ char *str_concat(char *s1, char *s2)
 	{
 		i++;
 	}
-	while (s2[k] != '\n')
+	while (s2[k] != '\0')
 	{
 		k++;
 	}
@@ -49,4 +49,3 @@ char *str_concat(char *s1, char *s2)
 	kamel[i] = '\0';
 	return (kamel);
 }
-

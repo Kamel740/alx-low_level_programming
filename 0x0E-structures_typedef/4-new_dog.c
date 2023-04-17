@@ -25,14 +25,14 @@ dog_t *new_dog(char *name, float age, char *owner)
 	if (doggy->name == NULL)
 		return (NULL);
 	for (i = 0; i < nlen; i++)
-		doggy->name[i] = name[i];`
+		doggy->name[i] = name[i];
 
 	doggy->age = age;
 
 	doggy->owner = malloc(sizeof(char) * olen);
 	if (doggy->owner == NULL)
 		return (NULL);
-	for (i = 0; i < olen - ; i++)
+	for (i = 0; i < olen; i++)
 		doggy->owner[i] = owner[i];
 	return (doggy);
 }

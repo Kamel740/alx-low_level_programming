@@ -5,7 +5,7 @@
  * @name: the name of the dog
  * @age: the age of the dog
  * @owner: the dog owner name
- * Retrun: return a pointer to the created struct
+ * Return: return a pointer to the created struct
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
@@ -21,16 +21,16 @@ dog_t *new_dog(char *name, float age, char *owner)
 	if (doggy == NULL)
 		return (NULL);
 
-	doggy->name = malloc(sizeof(doggy->name) * nlen);
-	if (doggy == NULL)
+	doggy->name = malloc(sizeof(char) * nlen);
+	if (doggy->name == NULL)
 		return (NULL);
 	for (i = 0; i < nlen; i++)
 		doggy->name[i] = name[i];
 
 	doggy->age = age;
 
-	doggy->owner = malloc(sizeof(doggy->owner) * olen);
-	if (doggy == NULL)
+	doggy->owner = malloc(sizeof(char) * olen);
+	if (doggy->owner == NULL)
 		return (NULL);
 	for (i = 0; i < olen; i++)
 		doggy->owner[i] = owner[i];

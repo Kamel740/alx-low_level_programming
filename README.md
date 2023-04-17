@@ -1,1 +1,1 @@
-the new broject is here hello world by c 
+this is the first task of the scond month i think and it is struct

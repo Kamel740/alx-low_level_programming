@@ -5,7 +5,7 @@
  * @d: pointer to the struct we need to free
  * Return: i dont't know 0_0
  */
-void free_dog(dog-t *d)
+void free_dog(dog_t *d)
 {
 	if(d)
 	{

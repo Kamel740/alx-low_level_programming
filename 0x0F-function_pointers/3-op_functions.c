@@ -2,7 +2,7 @@
 
 /**
  * op_add - adds two numper
- * @a the first intger
+ * @a: the first intger
  * @b: the second integer
  * Return: the sum of the two numper
  */

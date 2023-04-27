@@ -3,19 +3,18 @@
 
 /**
  * struct list_s - singly linked list
- * @str: is a pointer to a string
- * @len: is the length of the string
- * @next: is a pointer to the next node
+ * @str: string - (malloc'ed string)
+ * @len: length of the string
+ * @next: points to the next node
  *
- * Description: singly linked list node
- * structure for alx project
+ * Description: singly linked list node structure
  */
 typedef struct list_s
 {
-	char *str;
-	unsigned int len;
-	struct list_s *next;
-}list_t;
+    char *str;
+    unsigned int len;
+    struct list_s *next;
+} list_t;
 
 size_t print_list(const list_t *h);
 size_t list_len(const list_t *h);

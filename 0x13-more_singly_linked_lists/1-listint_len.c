@@ -1,5 +1,5 @@
 #include "lists.h"
-/*
+/**
  * listint_len - return the numper of elements
  * @h: pointer to the linked list
  * Return: numper of the elements
